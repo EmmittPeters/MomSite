@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    
+  </head>
+
+  <body>
+  
+  <script src="jquery.min.js"></script>
+  <script src="app.js"></script>
+	
+  <div class="nav">
+    <div class="container">
+      <ul class="pull-left">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+      </ul>
+      <!-- unneeded currently
+      <ul class="pull-right">
+        <li><a href="#">Register</a></li>
+        <li><a href="#">Log In</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+      -->
+    </div>
+  </div>
+	
+  <!-- place holder images until I can get mom's photos -->
+  <div class="neighborhood-guides">
+    <div class="container">
+      <h3>Click an image to view its recipe</h3>
+      <!-- show recipe as a dismissable popup. options to share, save, print -->
+      <!-- find a way to make mouseover image semi transparent -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="http://i.imgur.com/LeP6MYz.png" onmouseout="this.src='http://i.imgur.com/LeP6MYz.png'" onmouseover="this.src='http://i.imgur.com/VIMdO2i.png'">
+          </div>
+          <div class="thumbnail">
+            <img src="http://i.imgur.com/dcznU1p.png" onmouseout="this.src='http://i.imgur.com/dcznU1p.png'" onmouseover="this.src='http://i.imgur.com/VIMdO2i.png'">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="http://i.imgur.com/axQuzIX.png" onmouseout="this.src='http://i.imgur.com/axQuzIX.png'" onmouseover="this.src='http://i.imgur.com/VIMdO2i.png'">
+          </div>
+          <div class="thumbnail">
+            <img src="http://i.imgur.com/LeP6MYz.png" onmouseout="this.src='http://i.imgur.com/LeP6MYz.png'" onmouseover="this.src='http://i.imgur.com/VIMdO2i.png'">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="http://i.imgur.com/dcznU1p.png" onmouseout="this.src='http://i.imgur.com/dcznU1p.png'" onmouseover="this.src='http://i.imgur.com/VIMdO2i.png'">
+          </div>
+          <div class="thumbnail">
+            <img src="http://i.imgur.com/axQuzIX.png" onmouseout="this.src='http://i.imgur.com/axQuzIX.png'" onmouseover="this.src='http://i.imgur.com/VIMdO2i.png'">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
